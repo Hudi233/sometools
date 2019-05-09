@@ -32,7 +32,7 @@ def sendmail(msg,subject,fromaddr,toaddrs,password):
     mail_msg.attach(MIMEText(msg,_subtype='plain',_charset='utf-8'))
 	try:
 		s = smtplib.SMTP()  
-        s.connect('smtp.exmail.qq.com')
+        s.connect('zzz')
         s.login(fromaddr,password) 
         s.sendmail(fromaddr, toaddrs, mail_msg.as_string())
         s.quit()  
