@@ -49,9 +49,9 @@ def wechatwarning(result):
 		itchat.send(u'请发送线上数据下载审计邮件', 'filehelper')
 
 if __name__ == '__main__':
-	fromaddr = "hudi@jiedaibao.com"  
-	toaddrs = ["hudi@jiedaibao.com"]
-	password = "2DJBCZ3wWbegaYW5"
+	fromaddr = "zzz"  
+	toaddrs = ["zzz"]
+	password = "zzz"
 #get today & yestoday 
 	today_date = datetime.datetime.now()
 	yestoday_date = today_date + datetime.timedelta(days = -1)
